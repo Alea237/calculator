@@ -24,6 +24,7 @@ function multiplication() {
     operator = "*"
     document.getElementById("display").value = currentInput
 }
+
 function division() {
     currentInput += "/"
     operator = "/"
