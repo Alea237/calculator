@@ -24,6 +24,11 @@ function multiplication() {
     operator = "*"
     document.getElementById("display").value = currentInput
 }
+function division() {
+    currentInput += "/"
+    operator = "/"
+    document.getElementById("display").value = currentInput
+}
 
 function calculate() {
 
@@ -41,6 +46,9 @@ function calculate() {
             break;
         case "*":
             result = num1 * num2
+            break;
+        case "/":
+            result = num1 / num2
             break;
     }
 
